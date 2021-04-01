@@ -2,17 +2,49 @@
 <html>
     <head>
         <title>WEB1-HTML</title>
+        <style>
+            body{
+                margin:0;
+            }
+            h1{
+                font-size:70px;
+                text-align:center;
+                border-bottom:solid black 1px;
+                margin:0;
+                padding:20px;
+            }
+            ol{
+                border-right:black solid 1px;
+                width:100px;
+                line-height:60px;
+                font-size:20px;
+                margin:0;
+                padding:50px;
+            }
+            a{
+                text-decoration:none;
+                text-shadow:greenyellow 1px 2px 3px;
+            }
+            .article{
+                display:grid;
+                grid-template-columns:250px 1fr;
+            }
+        </style>
     </head>
     <body>
         <h1><a href="index.html">WEB</a></h1>
-        <ol>
-            <li><a href="1.html">HTML</a></li>
-            <li><a href="2.html">CSS</a></li>
-            <li><a href="3.html">JAVASCRIPT</a></li>
-        </ol>
-        <h2>CSS</h2>
-        <p>CSS is the standard.....</p>
-        <img src="money.jpg" width = "50%">
-        <p>so blahblah...</p>
+        <div class="article">
+            <ol>
+                <li><a href="1.html">HTML</a></li>
+                <li><a href="2.html">CSS</a></li>
+                <li><a href="3.html">JAVASCRIPT</a></li>
+            </ol>
+            <div>
+                <h2>CSS</h2>
+                <p>CSS is the standard that some blahblah blahblah blahblahblahblahblahblah.....</p>
+                <img src="money.jpg" width = "70%">
+                <p>so blahblah...</p>
+            </div>
+        </div>
     </body>
 </html>
